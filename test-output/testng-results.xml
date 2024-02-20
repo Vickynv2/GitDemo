@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-11T18:11:28 IST" name="Suite" finished-at="2024-02-11T18:11:58 IST" duration-ms="29987">
+    <groups>
+      <group name="Purchage">
+        <method signature="NewApplication.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" name="submitOrder" class="rahulshettyacademy.tests.NewApplication"/>
+      </group> <!-- Purchage -->
+    </groups>
+    <test started-at="2024-02-11T18:11:28 IST" name="Purchage order test" finished-at="2024-02-11T18:11:58 IST" duration-ms="29987">
+      <class name="rahulshettyacademy.tests.NewApplication">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" started-at="2024-02-11T18:11:28 IST" name="launchApplication" finished-at="2024-02-11T18:11:38 IST" duration-ms="10480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" started-at="2024-02-11T18:11:38 IST" name="submitOrder" data-provider="getData" finished-at="2024-02-11T18:11:49 IST" duration-ms="10958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ramana@143, email=vicky123@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" started-at="2024-02-11T18:11:49 IST" name="closing" finished-at="2024-02-11T18:11:50 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" started-at="2024-02-11T18:11:50 IST" name="launchApplication" finished-at="2024-02-11T18:11:54 IST" duration-ms="4312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" started-at="2024-02-11T18:11:54 IST" name="submitOrder" data-provider="getData" finished-at="2024-02-11T18:11:58 IST" duration-ms="3755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ramana@111, email=ram143@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:rahulshettyacademy.tests.NewApplication@333d4a8c]" started-at="2024-02-11T18:11:58 IST" name="closing" finished-at="2024-02-11T18:11:58 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- rahulshettyacademy.tests.NewApplication -->
+    </test> <!-- Purchage order test -->
+  </suite> <!-- Suite -->
+</testng-results>
